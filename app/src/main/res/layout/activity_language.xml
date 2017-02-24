@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_language"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mike.projectxx.Language">
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginTop="112dp"
+        android:id="@+id/lan1"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/lan2"
+        android:onClick="onClick"
+        android:layout_alignTop="@+id/lan1"
+        android:layout_toRightOf="@+id/lan1"
+        android:layout_toEndOf="@+id/lan1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/lan3"
+        android:onClick="onClick"
+        android:layout_alignTop="@+id/lan2"
+        android:layout_toRightOf="@+id/lan2"
+        android:layout_toEndOf="@+id/lan2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/lan4"
+        android:onClick="onClick"
+        android:layout_alignTop="@+id/lan3"
+        android:layout_toRightOf="@+id/lan3"
+        android:layout_toEndOf="@+id/lan3" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/lan5"
+        android:onClick="onClick"
+        android:layout_alignTop="@+id/lan4"
+        android:layout_toRightOf="@+id/lan4"
+        android:layout_toEndOf="@+id/lan4"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/lan6"
+        android:onClick="onClick"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/lan2"
+        android:layout_toRightOf="@+id/lan1"
+        android:layout_toEndOf="@+id/lan1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/lan7"
+        android:onClick="onClick"
+        android:layout_alignTop="@+id/lan6"
+        android:layout_toRightOf="@+id/lan3"
+        android:layout_toEndOf="@+id/lan3" />
+
+    <TextView
+        android:text="LANGUAGES"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
